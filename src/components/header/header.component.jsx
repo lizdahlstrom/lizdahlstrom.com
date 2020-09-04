@@ -19,12 +19,16 @@ const Header = () => {
         direction='row'
         justify='center'>
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-          <Typography variant='h2' component='h1'>
+          <Typography
+            variant='h3'
+            component='h1'
+            className={classes.title}
+            style={{ fontWeight: '500' }}>
             Liz Dahlström
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-          <Typography variant='h6' component='h2' className={classes.title}>
+          <Typography variant='h6' component='h2' className={classes.subtitle}>
             {'/*'} Software Developer - CS Student {'*/'}
           </Typography>
         </Grid>
@@ -45,6 +49,10 @@ const Header = () => {
           <ul className={classes.navLinks}>
             <li>
               <Link href='#'>Portfolio</Link>
+            </li>
+            <li>•</li>
+            <li>
+              <Link href='#'>Courses</Link>
             </li>
             <li>•</li>
             <li>

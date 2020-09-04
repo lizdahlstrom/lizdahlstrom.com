@@ -5,18 +5,18 @@ export const theme = createMuiTheme({
     type: 'dark',
   },
   typography: {
-    fontFamily: '"Kumbh Sans", "Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Montserrat", "Roboto", "Helvetica", "Arial", sans-serif',
   },
   overrides: {
     MuiTypography: {
       h1: {
-        fontFamily: '"Antic Slab","Roboto", "serif"',
+        fontFamily: '"Lato","Roboto", "serif"',
       },
       h2: {
-        fontFamily: '"Antic Slab","Roboto", "serif"',
+        fontFamily: '"Lato","Roboto", "serif"',
       },
       h6: {
-        fontFamily: '"Antic Slab","Roboto", "serif"',
+        fontFamily: '"Lato","Roboto", "serif"',
       },
     },
   },

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "VibeDuck",
+    "description": "A playlist generator built on the Spotify API. Lets the users create playlists based on songs, artists, genres and/ or a variety of parameters.",
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+      "Firebase",
+      "Material UI",
+      "Node.js"
+    ],
+    "image": "/img/vibeduck.PNG",
+    "url": "https://vibe-duck.firebaseapp.com/"
+  },
+  {
+    "id": 2,
+    "title": "Ziggato",
+    "description": "A Discord bot with a range of utility features such as currency conversion, translation, Wikipedia integration, Steam integration and more. Hosted on a Node server.",
+    "technologies": ["JavaScript", "Node.js", "Ubuntu server"],
+    "image": "../../img/ziggato.PNG",
+    "url": "https://vibe-duck.firebaseapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "ViaFilter",
+    "description": "A very simple Chrome extension for the web streaming service Viaplay. It lets the user filter movies within a range of years.",
+    "technologies": ["JavaScript", "HTML5", "CSS3"],
+    "image": "../../img/viafilter.PNG",
+    "url": "https://vibe-duck.firebaseapp.com/"
+  }
+]
