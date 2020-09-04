@@ -35,11 +35,13 @@ const Header = () => {
 
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
           <IconButton
+            aria-label='Github'
             onClick={() => window.open('https://www.github.com/lizdahlstrom/')}>
             <GitHubIcon />
           </IconButton>
 
           <IconButton
+            aria-label='LinkedIn'
             onClick={() => window.open('https://www.github.com/lizdahlstrom/')}>
             <LinkedInIcon />
           </IconButton>
@@ -52,7 +54,7 @@ const Header = () => {
             </li>
             <li>•</li>
             <li>
-              <Link href='#'>Courses</Link>
+              <Link href='#'>Coursework</Link>
             </li>
             <li>•</li>
             <li>

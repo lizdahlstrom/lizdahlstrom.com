@@ -43,7 +43,7 @@ const Portfolio = () => {
           xl={12}
           className={classes.projectsContainer}>
           {projectsData
-            ? projectsData.map((project) => (
+            ? projectsData.map((project, index) => (
                 <PortfolioItem
                   key={project.title}
                   title={project.title}
@@ -51,6 +51,7 @@ const Portfolio = () => {
                   image={project.image}
                   url={project.url}
                   technologies={project.technologies}
+                  id={index}
                 />
               ))
             : ''}
